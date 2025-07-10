@@ -1,11 +1,46 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="calculadora, simples">
+    <title>Projeto Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script> <!--'Defer' me permite baixar o JavaScript no momento que essa linha for lida, mas apenas executar após todo o HTML estiver sido carregado-->
 </head>
 <body>
-    
+    <header></header>
+    <main>
+        <div id="calc">
+            <h3>Calculadora</h3>
+            <div id="operations">
+                <div id="previous-operations">123 +</div>
+                <div id="current-operations">420</div>
+            </div>
+            <div id="buttons-container">
+                <button>CE</button>
+                <button>C</button>
+                <button>DEL</button>
+                <button class="number-botton">/</button>
+                <button class="number-botton">7</button>
+                <button class="number-botton">8</button>
+                <button class="number-botton">9</button>
+                <button>*</button>
+                <button class="number-botton">4</button>
+                <button class="number-botton">5</button>
+                <button class="number-botton">6</button>
+                <button>-</button>
+                <button class="number-botton">1</button>
+                <button class="number-botton">2</button>
+                <button class="number-botton">3</button>
+                <button>+</button>
+                <button>0</button>
+                <button class="number-botton">.</button>
+                <button id="equal-button">=</button>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
 </body>
 </html>
